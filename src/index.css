@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(32, 30, 30);
+    color: white;
+}
+
+.serchButton {
+    background-color: #BC4123;
+    width: 100px;
+}
+
+.letter_space {
+    letter-spacing: 1px;
+}
+
+.mainHeading {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.veticalLine {
+    border-left: 2px solid #BC4123;
+    height: 100%;
+    margin: 0 250px;
+}
+
+.quote {
+    width: 40px;
+    height: 40px;
+    color: orangered;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.knownBtn {
+    border: 1px solid #BC4123;
+    border-radius: 5px;
+    background-color: #BC4123;
+}
+
+.btn_border {
+    border: 1px solid #BC4123;
+    color: #BC4123;
+}
+
+.carosolBg {
+    background-color: rgb(32, 30, 30);
+}
+
+p {
+    font-size: small;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.logoColor {
+    filter: invert(1) grayscale(1) brightness(2);
+    /* opacity: 0.2; */
+}
+
+.orange_button {
+    background-color: #BC4123;
+}
+
+.footerBg {
+    background-color: #BC4123;
+}
+
+.orangeText {
+    color: #CE4420;
+}
+
+.border_color {
+    border: 1px solid #CE4420;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.opacityP {
+    opacity: 0.7;
+}
+
+.bg-grey {
+    color: rgb(158, 98, 98);
+}
