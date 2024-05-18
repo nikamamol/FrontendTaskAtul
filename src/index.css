@@ -25,6 +25,10 @@ body {
     margin: 0 250px;
 }
 
+h3 {
+    opacity: 0.8;
+}
+
 .quote {
     width: 40px;
     height: 40px;
@@ -67,6 +71,7 @@ p {
 
 .footerBg {
     background-color: #BC4123;
+    opacity: 1.9;
 }
 
 .orangeText {

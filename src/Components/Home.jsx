@@ -140,12 +140,12 @@ function Home() {
     return (
       // <Carousel activeIndex={index} onSelect={handleSelect}>
       <Row>
-        <Col>
-          <Card className="bg-dark text-white p-2 rounded-4">
+        <Col >
+          <Card className="bg-dark text-white p-4 rounded-4 " style={{width:"30rem"}}>
             <Card.Img variant="top" src={cardImg1} />
             <Card.Body>
               <Card.Text>Alex Karev | Nov 18, 2022</Card.Text>
-              <Card.Text className="fs-4">
+              <Card.Text className="fs-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry
               </Card.Text>
@@ -157,11 +157,11 @@ function Home() {
           </Card>
         </Col>
         <Col>
-          <Card className="bg-dark text-white p-2 rounded-4">
+          <Card className="bg-dark text-white p-4 rounded-4" style={{width:"30rem"}}>
             <Card.Img variant="top" src={cardImg1} />
             <Card.Body>
               <Card.Text>Alex Karev | Nov 18, 2022</Card.Text>
-              <Card.Text className="fs-4">
+              <Card.Text className="fs-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry
               </Card.Text>
